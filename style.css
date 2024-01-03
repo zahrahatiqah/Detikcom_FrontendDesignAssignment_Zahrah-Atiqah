@@ -1,0 +1,3898 @@
+body {
+  
+}
+
+@media only screen and (min-width: 320px) {
+    section {
+       overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-mobile1.png');
+        background-size: cover;
+        height: 977px;
+        width: 320px;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-top: -6px;
+        margin-left: 40px;
+        background-color: white;
+        border-radius: 50%;
+        padding-top: 7px;
+        width: 45px;
+    }
+
+    .buttonIcon { 
+        border: none; 
+        background-color: inherit; 
+        cursor: pointer; 
+    }
+
+    .fa-times {
+        padding-right: 9px;
+        padding-top: 2px;
+        font-size: 25px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon svg {
+        color: rgb(34, 34, 129);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -120px;
+        margin-left: 10px;
+        width: 300px;
+        height: 60px;
+        border-radius: 32px;
+        padding: 15px 24px;
+        gap: 32px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        margin-top: -25px;
+        width: 90px; 
+        height: 35px;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px;     
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        gap: 16px;
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: -24px;
+        z-index: 1000;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        padding-top: 50px;
+        margin-left: -10px;
+        width: 280px;
+    }
+
+    .navbar-collapse {
+        display: none;        
+    }
+
+    .nav-item {
+        width: 330px;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 177px;
+        height: 47px;
+        margin-left: 20px;
+        border-radius: 100px;
+        padding: 10px 20px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:600 12px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang2 {
+        background-color: rgba(255, 199, 60, 1);
+        width: 218px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 10px 20px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+
+    .btn-tentang2:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 155px;
+        margin-bottom: 37px;
+        text-align: center;
+
+    }
+
+    .sudirman img {
+         width: 252px;
+        height: 110px;
+    }
+
+    .sudirman2 {
+        text-align: center;
+    }
+
+    .sudirman2 img {
+        width: 260px;
+        height: 115px;
+   }
+
+   .sosmed {
+        text-align: center;
+        margin-top: 50px;
+   }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 600px;
+        width: 320px;
+        padding: 50px 15px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        height: 150px;
+        width: 250px;
+    }
+
+    .card {
+        border-radius: 16px;
+        width: 290px;
+        height: 455px;
+        padding: 20px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        margin-bottom: 30px;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 12px;
+    }
+
+    .card-text1 {
+        font:900 16px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+
+    .card-text2 {
+        font:900 16px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 330px;
+        height: 29px;
+    }
+
+    .card-desk {
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 17.7px;
+        margin-left: -15px;
+        width: 265px;
+        height: 68px;
+    }
+
+    .card-desk1 {
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 240px;
+        height: 60px;
+    }
+
+    .cp {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: -35px;
+    }
+    
+    .footer-desk {
+        font: 400 14px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 260px;
+        height: 140px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        margin-left: 35px;
+        
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        padding: 32px;
+        border-radius: 16px;
+        width: 290px;
+        height: 163px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        text-align: center;
+        padding: 32px;
+        border-radius: 16px;
+        width: 290px;
+        height: 449px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 16px;
+        width: 260px;
+        height: 180px;
+        aspect-ratio: 1/1;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+        margin-bottom: 32px;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 32px 0px 0px 30px;
+        transition: 0.3s ease-in-out;
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        width: 260px;
+        height: 250px;
+        display: block;
+        margin-bottom: 32px;
+        
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 320px;
+        height: 323px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .tentang {
+        padding: 50px 0px 80px 0px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 24px 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .judul-galeri {
+        font:900 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 100px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+    
+    .splide {
+        width: 300px;
+        height: 216px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .splide__arrow--prev {
+        margin-left: 8px;
+        margin-top: -10px;
+    }
+
+    .splide__arrow--next {
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+
+    .splide__slide {
+        border-radius: 8px;
+        
+    }
+
+    .splide__slide img {
+        width: 265px;
+        height: 170px;
+        margin-left: 17px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        margin-left: -40px;
+    }
+    
+    .thumbnail {
+        width: 64px;
+        height: 32px;
+        overflow: hidden;
+        list-style: none;
+        margin: -40px 2px 10px 2px;
+        cursor: pointer;
+        filter: grayscale(100%);
+        border-radius: 8px;
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/phone.jpg');
+        width: 320px;
+        height: 1459px;
+        margin-top: -150px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .seluruh-artikel {
+        width: 320px;
+        height: 965px;
+        margin: 163px 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 250px;
+        height: 40px;
+        margin: 5px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 19.5px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    .toggle-btn:hover {
+        color: yellow;
+    }
+
+    #artikel1 {
+        aspect-ratio: 1/1;
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .judul-artikel {
+        margin-left: -10px;
+        
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .font-artikel {
+        font:700 10px 'Montserrat', sans-serif;
+        color: black;
+        width: 381px;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 10px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 775%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-184%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    section {
+        overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-mobile1.png');
+        background-size: cover;
+        height: 977px;
+        width: 375px;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-top: 2px;
+        margin-left: 40px;
+        background-color: white;
+        border-radius: 50%;
+        padding-top: 7px;
+        width: 45px;
+    }
+
+    .buttonIcon { 
+        border: none; 
+        background-color: inherit; 
+        cursor: pointer; 
+    }
+
+    .fa-times {
+        padding-right: 9px;
+        padding-top: 2px;
+        font-size: 25px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon svg {
+        color: rgb(34, 34, 129);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -120px;
+        margin-left: 10px;
+        width: 356px;
+        height: 74px;
+        border-radius: 32px;
+        padding: 15px 24px;
+        gap: 32px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        margin-top: -20px;
+        width: 166px; 
+        height: 35px;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px;     
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        gap: 16px;
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: -18px;
+        z-index: 1000;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        padding-top: 50px;
+        margin-left: -15px;
+        width: 400px;
+    }
+
+    .navbar-collapse {
+        display: none;        
+    }
+
+    .nav-item {
+        width: 330px;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 177px;
+        height: 47px;
+        margin-left: 20px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 14px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang2 {
+        background-color: rgba(255, 199, 60, 1);
+        width: 218px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+
+    .btn-tentang2:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 155px;
+        margin-bottom: 37px;
+        text-align: center;
+
+    }
+
+    .sudirman img {
+        width: 330px;
+        height: 147px;
+    }
+
+    .sudirman2 {
+        text-align: center;
+    }
+
+    .sudirman2 img {
+        width: 285.83px;
+        height: 115px;
+   }
+
+   .sosmed {
+    text-align: center;
+   }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 546px;
+        width: 440px;
+        padding: 50px 15px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        height: 200px;
+        width: 350px;
+    }
+
+    .card {
+        border-radius: 16px;
+        width: 345px;
+        height: 455px;
+        padding: 32px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        margin-bottom: 30px;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 12px;
+    }
+
+    .card-text1 {
+        font:900 20px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+
+    .card-text2 {
+        font:900 20px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 330px;
+        height: 29px;
+    }
+
+    .card-desk {
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 17.7px;
+        margin-left: -15px;
+        width: 270px;
+        height: 68px;
+    }
+
+    .card-desk1 {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 270px;
+        height: 60px;
+    }
+
+    .cp {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .footer-desk {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 140px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        margin-left: 85px;
+        
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        padding: 32px;
+        border-radius: 16px;
+        width: 345px;
+        height: 163px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        text-align: center;
+        padding: 32px;
+        border-radius: 16px;
+        width: 345px;
+        height: 449px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 16px;
+        width: 341px;
+        height: 256px;
+        aspect-ratio: 4/3;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+        margin-bottom: 32px;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 32px 0px 0px 32px;
+        transition: 0.3s ease-in-out;
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        width: 310px;
+        height: 290px;
+        display: block;
+        margin-bottom: 32px;
+        
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 440px;
+        height: 323px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .tentang {
+        padding: 50px 0px 90px 0px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 24px 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .judul-galeri {
+        font:900 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 100px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+    
+    .splide {
+        width: 360px;
+        height: 216px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .splide__arrow--prev {
+        margin-left: 15px;
+    }
+
+    .splide__arrow--next {
+        margin-right: 0px;
+    }
+
+    .splide__slide {
+        border-radius: 8px;
+        
+    }
+
+    .splide__slide img {
+        width: 346px;
+        height: 216px;
+        margin-left: 17px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        margin-left: -40px;
+    }
+    
+    .thumbnail {
+        width: 80px;
+        height: 52px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0 0.2rem;
+        cursor: pointer;
+        filter: grayscale(100%);
+        border-radius: 8px;
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/phone.jpg');
+        width: 440px;
+        height: 1459px;
+        margin-top: -150px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .seluruh-artikel {
+        width: 430px;
+        height: 965px;
+        margin: 163px 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 333px;
+        height: 40px;
+        margin: 5px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 30px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    #btn {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #artikel1 {
+        aspect-ratio: 1/1;
+        width: 100px;
+        height: 100px;
+    }
+
+    .judul-artikel {
+        margin-left: -20px;
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .font-artikel {
+        font:700 16px 'Montserrat', sans-serif;
+        color: black;
+        line-height: 19.5px;
+        width: 261px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        max-height: 2 * var(--line-height);
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 12px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 563%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-184%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    section {
+        overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-mobile1.png');
+        background-size: cover;
+        height: 977px;
+        width: 440px;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-top: 2px;
+        margin-left: 40px;
+        background-color: white;
+        border-radius: 50%;
+        padding-top: 7px;
+        width: 45px;
+    }
+
+    .buttonIcon { 
+        border: none; 
+        background-color: inherit; 
+        cursor: pointer; 
+    }
+
+    .fa-times {
+        padding-right: 9px;
+        padding-top: 2px;
+        font-size: 25px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon svg {
+        color: rgb(34, 34, 129);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -120px;
+        margin-left: 30px;
+        width: 356px;
+        height: 74px;
+        border-radius: 32px;
+        padding: 15px 24px;
+        gap: 32px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        margin-top: -20px;
+        width: 166px; 
+        height: 35px;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px;     
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        gap: 16px;
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: -18px;
+        z-index: 1000;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        padding-top: 50px;
+        margin-left: -15px;
+    }
+
+    .navbar-collapse {
+        display: none;        
+    }
+
+    .nav-item {
+        width: 330px;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 177px;
+        height: 47px;
+        margin-left: 20px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 14px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang2 {
+        background-color: rgba(255, 199, 60, 1);
+        width: 218px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+
+    .btn-tentang2:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 155px;
+        margin-bottom: 37px;
+        text-align: center;
+
+    }
+
+    .sudirman img {
+         width: 367px;
+        height: 147px;
+    }
+
+    .sudirman2 {
+        text-align: center;
+    }
+
+    .sudirman2 img {
+        width: 285.83px;
+        height: 115px;
+   }
+
+   .sosmed {
+    text-align: center;
+   }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 546px;
+        width: 440px;
+        padding: 50px 15px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        height: 200px;
+        width: 350px;
+    }
+
+    .card {
+        border-radius: 16px;
+        width: 394px;
+        height: 455px;
+        padding: 32px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        margin-bottom: 30px;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 12px;
+    }
+
+    .card-text1 {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+
+    .card-text2 {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 330px;
+        height: 29px;
+    }
+
+    .card-desk {
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 17.7px;
+        margin-left: -15px;
+        width: 342px;
+        height: 68px;
+    }
+
+    .card-desk1 {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 330px;
+        height: 60px;
+    }
+
+    .cp {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .footer-desk {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 140px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        margin-left: 85px;
+        
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        padding: 32px;
+        border-radius: 16px;
+        width: 394px;
+        height: 163px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        text-align: center;
+        padding: 32px;
+        border-radius: 16px;
+        width: 394px;
+        height: 449px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 16px;
+        width: 341px;
+        height: 256px;
+        aspect-ratio: 4/3;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+        margin-bottom: 32px;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 32px 0px 0px 32px;
+        transition: 0.3s ease-in-out;
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        width: 360px;
+        height: 290px;
+        display: block;
+        margin-bottom: 32px;
+        
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 440px;
+        height: 323px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .tentang {
+        padding: 50px 0px 90px 0px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 24px 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .judul-galeri {
+        font:900 24px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 100px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+    
+    .splide {
+        width: 400px;
+        height: 216px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    
+
+    .splide__slide {
+        border-radius: 8px;
+        
+    }
+
+    .splide__slide img {
+        width: 376px;
+        height: 216px;
+        margin-left: 17px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        margin-left: -40px;
+    }
+    
+    .thumbnail {
+        width: 89px;
+        height: 52px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0 0.2rem;
+        cursor: pointer;
+        filter: grayscale(100%);
+        border-radius: 8px;
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/phone.jpg');
+        width: 440px;
+        height: 1459px;
+        margin-top: -150px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .seluruh-artikel {
+        width: 430px;
+        height: 965px;
+        margin: 163px 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 333px;
+        height: 40px;
+        margin: 5px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 30px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    #btn {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #artikel1 {
+        aspect-ratio: 1/1;
+        width: 100px;
+        height: 100px;
+    }
+
+    .judul-artikel {
+        margin-left: -20px;
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .font-artikel {
+        font:700 16px 'Montserrat', sans-serif;
+        color: black;
+        line-height: 19.5px;
+        width: 261px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        max-height: 2 * var(--line-height);
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 12px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 563%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-184%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section {
+        overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-mobile1.png');
+        background-size: cover;
+        height: 1600px;
+        width: 768px;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-top: 2px;
+        margin-left: 380px;
+        background-color: white;
+        border-radius: 50%;
+        padding-top: 10px;
+        width: 45px;
+    }
+
+    .buttonIcon { 
+        border: none; 
+        background-color: inherit; 
+        cursor: pointer; 
+    }
+
+    .fa-times {
+        padding-right: 9px;
+        padding-top: 2px;
+        font-size: 25px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon svg {
+        color: rgb(34, 34, 129);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -200px;
+        margin-left: 30px;
+        width: 700px;
+        height: 85px;
+        border-radius: 32px;
+        padding: 15px 24px;
+        gap: 32px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        margin-top: -20px;
+        width: 166px; 
+        height: 35px;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px;     
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        gap: 16px;
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: -10px;
+        z-index: 1000;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        padding-top: 50px;
+        margin-left: -15px;
+        width: 700px;
+    }
+
+    .navbar-collapse {
+        display: none;        
+    }
+
+    .nav-item {
+        width: 330px;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 177px;
+        height: 47px;
+        margin-left: 20px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 14px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang2 {
+        background-color: rgba(255, 199, 60, 1);
+        width: 218px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+
+    .btn-tentang2:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 300px;
+        margin-bottom: 150px;
+        text-align: center;
+
+    }
+
+    .sudirman img {
+         width: 600px;
+        height: 250px;
+    }
+
+    .sudirman2 {
+        text-align: center;
+    }
+
+    .sudirman2 img {
+        width: 285.83px;
+        height: 115px;
+   }
+
+   .sosmed {
+    text-align: center;
+   }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 546px;
+        width: 440px;
+        padding: 50px 15px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        height: 500px;
+        width: 750px;
+    }
+
+    .card {
+        border-radius: 16px;
+        width: 740px;
+        height: 755px;
+        padding: 32px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        margin-bottom: 30px;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 30px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 12px;
+    }
+
+    .card-text1 {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+
+    .card-text2 {
+        font:900 24px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 29.26px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 330px;
+        height: 29px;
+    }
+
+    .card-desk {
+        font:600 14px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 17.7px;
+        margin-left: -15px;
+        width: 600px;
+        height: 68px;
+    }
+
+    .card-desk1 {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 330px;
+        height: 60px;
+    }
+
+    .cp {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .footer-desk {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 366px;
+        height: 140px;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        margin-left: 85px;
+        
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        padding: 32px;
+        border-radius: 16px;
+        width: 740px;
+        height: 163px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        text-align: center;
+        padding: 100px;
+        border-radius: 16px;
+        width: 600px;
+        height: 700px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 16px;
+        width: 400px;
+        height: 400px;
+        aspect-ratio: 4/3;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+        margin-bottom: 32px;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 100px 0px 0px 100px;
+        transition: 0.3s ease-in-out;
+        aspect-ratio: 4/3;
+        border-radius: 16px;
+        width: 500px;
+        height: 500px;
+        display: block;
+        margin-bottom: 32px;
+        
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 768px;
+        height: 323px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .tentang {
+        padding: 50px 0px 90px 0px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 24px 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .judul-galeri {
+        font:900 24px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 100px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+    
+    .splide {
+        width: 400px;
+        height: 216px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .splide__slide {
+        border-radius: 8px;
+        
+    }
+
+    .splide__slide img {
+        width: 376px;
+        height: 216px;
+        margin-left: 17px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+        margin-left: -40px;
+    }
+    
+    .thumbnail {
+        width: 89px;
+        height: 52px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0 0.2rem;
+        cursor: pointer;
+        filter: grayscale(100%);
+        border-radius: 8px;
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/phone.jpg');
+        width: 440px;
+        height: 1459px;
+        margin-top: -150px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .seluruh-artikel {
+        width: 430px;
+        height: 965px;
+        margin: 163px 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 333px;
+        height: 40px;
+        margin: 5px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 30px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    #btn {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #artikel1 {
+        aspect-ratio: 1/1;
+        width: 100px;
+        height: 100px;
+    }
+
+    .judul-artikel {
+        margin-left: -20px;
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .font-artikel {
+        font:700 16px 'Montserrat', sans-serif;
+        color: black;
+        line-height: 19.5px;
+        width: 261px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        max-height: 2 * var(--line-height);
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 12px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 323%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-184%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+/* my laptop - 1326px X 486px */
+@media only screen and (min-width: 1326px) {
+    section {
+        overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-desktop1.png');
+        height: 960px;
+        padding-top: 50px;
+        width: 1349px;
+        overflow: hidden;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -220px;
+        margin-left: 80px;
+        width: 1194px;
+        height: 92.27px;
+        border-radius: 100px;
+        padding: 25px 35px 25px 35px;
+        gap: 120px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px; 
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        width: 804px;
+        gap: 51px;
+        margin-left: 70px;
+        text-align:none;
+        margin-top: 0px;
+        z-index: 1000;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-top: 0px;
+        background: none;
+        backdrop-filter: none;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 195px;
+        height: 50px;
+        margin-top:0px;
+        margin-left: 0px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 16px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 230px;
+        margin-left: -100px;
+        margin-bottom: 80px;
+    }
+
+    .sudirman img {
+        width: 686px;
+        height: 276px;
+   }
+
+    .sudirman2 {
+        text-align: left;
+    }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 420px;
+        width: 1349px;
+        padding: 50px 70px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        border-radius: 32px;
+        height: 300px;
+        width: 518px;
+    }
+
+    .card {
+        border-radius: 32px;
+        width: 582px;
+        height: 611px;
+        padding: 32px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 48px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 58.51px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+
+    .card-text1 {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 25px;
+    }
+
+    .card-text2 {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 43.88px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 5px;
+        margin-bottom: 15px;
+        width: 310px;
+        height: 88px;
+    }
+
+    .card-desk {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 518px;
+        height: 60px;
+    }
+
+    .card-desk1 {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: 8px;
+        width: 310px;
+        height: 88px;
+    }
+
+    .cp {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 80px;
+        color: rgba(255, 255, 255, 1);
+        width: 1008px;
+        height: 60px;
+        letter-spacing: 0.5%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    
+    .footer-desk {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 920px;
+        height: 60px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 20px;
+        margin-bottom: 25px;
+        padding: 32px 50px 1px 32px;
+        border-radius: 32px;
+        width: 582px;
+        height: 158px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        margin-left: 10px;
+        padding: 25px 50px 0px 32px;
+        border-radius: 32px;
+        width: 582px;
+        height: 242px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 20px;
+        width: 178px;
+        height: 178px;
+        aspect-ratio: 1/1;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 25px 0px 0px 32px;
+        transition: 0.3s ease-in-out;
+        width: 200px;
+        height: 200px;
+        aspect-ratio: 1/1;
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 1349px;
+        height: 338px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .tentang {
+        padding: 137px 80px 137px 50px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .judul-galeri {
+        font:900 36px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 193px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+
+    .galeri {
+        height: 1232px;
+    }
+    
+    .splide {
+        width: 1180px;
+        height: 604px;
+        border-radius: 32px;
+        margin-top: 30px;
+    }
+
+    .splide__arrow--prev {
+        margin-left: 150px;
+    }
+
+    .splide__arrow--next {
+        margin-right: 20px;
+    }
+
+    .splide__slide img {
+        width: 1030px;
+        height: 604px;
+        margin-left: 140px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin: 1rem auto 0;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    .thumbnail {
+        width: 254px;
+        height: 145px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0 0.2rem;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/desktop.jpg');
+        width: 1349px;
+        height: 1619px;
+        margin-top: -150px;
+    }
+
+    .seluruh-artikel {
+        width: 1198px;
+        height: 1057px;
+        margin: 163px 100px;
+    }
+
+    .judul-artikel {
+        margin-left: 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: -20px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 333px;
+        height: 40px;
+        margin: 35px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 30px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    #btn {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #artikel1 {
+        aspect-ratio: 4/3;
+        width: 376px;
+        height: 282px;
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 367px;
+        padding-left: 0px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 367px;
+        padding-left: 15px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 367px;
+        padding-left: 30px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .font-artikel {
+        font:700 16px 'Montserrat', sans-serif;
+        color: black;
+        line-height: 19.5px;
+        width: 376px;
+        height: 40px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        max-height: 2 * var(--line-height);
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 12px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 184%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-100%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1440px) {
+    section {
+        overflow: hidden;
+    }
+
+    .dashboard {
+        background-image: url('assets/bg-desktop1.png');
+        height: 960px;
+        padding-top: 50px;
+        width: 1440px;
+    }
+
+    .navbar {
+        backdrop-filter: blur(25px);
+        background-color: rgb(255, 255, 255, 0.5);
+        margin-top: -220px;
+        margin-left: 123px;
+        width: 1194px;
+        height: 92.27px;
+        border-radius: 100px;
+        padding: 25px 35px 25px 35px;
+        gap: 120px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        margin-top: -10px;
+        width: 200px; 
+        height: 42.27px;
+    }
+
+    .nav-link {
+        font:600 16px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        height: 40px;
+        padding: 10px 20px 10px 20px; 
+    }
+
+    .nav-link:hover {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        color: black;
+    }
+
+    .navbar-nav {
+        width: 804px;
+        gap: 51px;
+        margin-left: 40px;
+        text-align:none;
+        margin-top: 0px;
+        z-index: 1000;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-top: 0px;
+        background: none;
+        backdrop-filter: none;
+    }
+
+    .btn {
+        width: 122px; 
+        border-radius: 100px;
+        text-align: center;
+        height: 40px;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-size: 200%;
+        transition: 0.5s;
+    }
+    
+    .btn-regis {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .btn-regis:hover {
+        background-position: right;
+    }
+
+    .btn-tentang {
+        background-color: rgba(255, 199, 60, 1);
+        width: 195px;
+        height: 50px;
+        margin-top:0px;
+        margin-left: -50px;
+        border-radius: 100px;
+        padding: 15px 25px;
+        gap: 10px;
+        box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+        font:700 16px 'Montserrat', sans-serif;
+        color: white;
+    }
+
+    .btn-tentang:hover {
+        background-color: orange;
+    }
+    
+    .sudirman {
+        margin-top: 230px;
+        margin-left: -100px;
+        margin-bottom: 80px;
+    }
+
+    .sudirman img {
+        width: 686px;
+        height: 276px;
+   }
+
+    .sudirman2 {
+        text-align: left;
+    }
+
+    .footer {
+        background-color: rgba(40, 169, 151, 1);
+        height: 420px;
+        width: 1440px;
+        padding: 50px 70px;
+    }
+
+    .zoom-gambar {
+        overflow: hidden;
+        border-radius: 32px;
+    }
+    
+    .zoom-gambar img {
+        transition-property: all;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .zoom-gambar img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    .card-img-top {
+        aspect-ratio: 4/3;
+        border-radius: 32px;
+        height: 300px;
+        width: 518px;
+    }
+
+    .card {
+        border-radius: 32px;
+        width: 582px;
+        height: 611px;
+        padding: 32px;
+        gap: 30px;
+        border: none;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card1 {
+        background-image:linear-gradient(to left, rgba(50, 108, 255, 1), rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+    
+    .card1:hover {
+        background-position: right;
+    }
+
+    .card-text {
+        font:900 48px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 58.51px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+
+    .card-text1 {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 20px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: -10px;
+        margin-bottom: 25px;
+    }
+
+    .card-text2 {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        line-height: 43.88px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 5px;
+        margin-bottom: 15px;
+        width: 310px;
+        height: 88px;
+    }
+
+    .card-desk {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: -10px;
+        width: 518px;
+        height: 60px;
+    }
+
+    .card-desk1 {
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
+        line-height: 19.5px;
+        margin-left: 8px;
+        width: 310px;
+        height: 88px;
+    }
+
+    .cp {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 80px;
+        color: rgba(255, 255, 255, 1);
+        width: 1008px;
+        height: 60px;
+        letter-spacing: 0.5%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    
+    
+    .footer-desk {
+        font: 400 16px 'Montserrat', sans-serif;
+        line-height: 19.5px;
+        color: rgba(255, 255, 255, 1);
+        width: 1008px;
+        height: 60px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .footer-desk2 {
+        font: 400 12px 'Montserrat', sans-serif;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 1);
+        width: 192px;
+        height: 16px;
+        letter-spacing: 0.5%;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .batas-footer {
+        gap: 100px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .icon-footer {
+        gap: 8px;
+    }
+    
+    .card-body1 {
+        margin-left: 20px;
+        margin-bottom: 25px;
+        padding: 32px 50px 1px 32px;
+        border-radius: 32px;
+        width: 582px;
+        height: 158px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+    }
+
+    .card-body2 {
+        margin-left: 10px;
+        padding: 25px 50px 0px 32px;
+        border-radius: 32px;
+        width: 582px;
+        height: 242px;
+        cursor: pointer;
+        background-size: 700%;
+        transition: 0.7s;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-img-ran {
+        border-radius: 20px;
+        width: 178px;
+        height: 178px;
+        aspect-ratio: 1/1;
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .card-img-ran2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        padding: 25px 0px 0px 32px;
+        transition: 0.3s ease-in-out;
+        width: 200px;
+        height: 200px;
+        aspect-ratio: 1/1;
+    }
+
+    .card-body2:hover .card-img-ran2 {
+        opacity: 1;
+    }
+      
+    .card-body2:hover .card-img-ran {
+        opacity: 0;
+    }
+
+    .zoom-gambar2 {
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .zoom-gambar2 img {
+        transition-property: all;
+    }
+    
+    .zoom-gambar2:hover {
+        animation: flash 0.4s;
+        
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+    }
+    
+    .zoom-gambar2:not(:hover) {
+        animation: blink-on-exit 0.4s; 
+    }
+      
+    @keyframes blink-on-exit {
+        0%, 49.9%, 100% {
+          opacity: 0;
+        }
+    }
+
+    .card-sponsor {
+        width: 1440px;
+        height: 338px;
+        padding: 60px 0px 60px 0px;
+        gap: 30px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .tentang {
+        padding: 137px 123px 137px 123px;
+    }
+
+    .daftar {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lihat {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .didukung {
+        font:900 36px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .judul-galeri {
+        font:900 36px 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 193px;
+    }
+
+    .sponsor {
+        padding-right: 15px;
+    }
+
+    .galeri {
+        height: 1232px;
+    }
+    
+    .splide {
+        width: 1250px;
+        height: 604px;
+        border-radius: 32px;
+        margin-top: 30px;
+    }
+
+    .splide__arrow--prev {
+        margin-left: 200px;
+    }
+
+    .splide__arrow--next {
+        margin-right: 30px;
+    }
+
+    .splide__slide img {
+        width: 1040px;
+        height: 604px;
+        margin-left: 190px;
+    }
+
+    .thumbnails {
+        display: flex;
+        margin: 1rem auto 0;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    .thumbnail {
+        width: 254px;
+        height: 145px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0 0.2rem;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+    
+    .thumbnail.is-active {
+        filter: grayscale(0%);
+    }
+    
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel {
+        background-image: url('assets/bg/desktop.jpg');
+        width: 1440px;
+        height: 1619px;
+        margin-top: -150px;
+    }
+
+    .seluruh-artikel {
+        width: 1198px;
+        height: 1057px;
+        margin: 163px 121px;
+    }
+
+    .judul-artikel {
+        margin-left: 0px;
+    }
+
+    .form-box {
+        border: none;
+        margin-bottom: -20px;
+        margin-top: 50px;
+    }
+
+    .button-box {
+        width: 333px;
+        height: 40px;
+        margin: 35px auto;
+        position: relative;
+        border-radius: 100px;
+        background: radial-gradient(at top right, rgba(89, 255, 185, 1), rgba(50, 108, 255, 1));
+    }
+
+    .toggle-btn {
+        padding: 10px 30px;
+        background: transparent;
+        border-color: transparent;
+        border: none;
+        position: relative;
+        text-align: center;
+        font:600 16px 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .toggle-btn:focus {
+        outline: none;
+    }
+
+    #btn {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #artikel1 {
+        aspect-ratio: 4/3;
+        width: 376px;
+        height: 282px;
+    }
+
+    .batas-artikel1 {
+        width: 376px;
+        height: 367px;
+        padding-left: 0px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .batas-artikel2 {
+        width: 376px;
+        height: 367px;
+        padding-left: 15px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .batas-artikel3 {
+        width: 376px;
+        height: 367px;
+        padding-left: 30px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .font-artikel {
+        font:700 16px 'Montserrat', sans-serif;
+        color: black;
+        line-height: 19.5px;
+        width: 376px;
+        height: 40px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        max-height: 2 * var(--line-height);
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .font-artikel:hover {
+        color: orange;
+    }
+
+    .tgl-artikel {
+        font:500 12px 'Montserrat', sans-serif;
+        color: rgba(108, 108, 108, 1);
+        text-decoration: none;
+        line-height: 14.63px;
+        width: 185px;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    .box{
+        display: none;
+    }
+    
+    .show{
+        display:contents;
+    }
+
+    .logos {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .logos-slide {
+        width: 172%;
+        overflow: hidden;
+        animation: slide 10s linear infinite;
+        display: inline-block;
+    }
+      
+    .logos-slide img {
+        display: inline-block; /* Agar gambar-gambar ditampilkan dalam satu baris */
+        animation: marquee 10s linear infinite;
+         /* Ubah kecepatan dan durasi sesuai kebutuhan */
+    }
+      
+    @keyframes slide {
+        from {
+          transform: translateX(0); /* Mulai dari posisi awal */
+        }
+        to {
+          transform: translateX(-100%); /* Berakhir di luar layar sebelah kiri */
+        }
+    }
+
+    
+}
