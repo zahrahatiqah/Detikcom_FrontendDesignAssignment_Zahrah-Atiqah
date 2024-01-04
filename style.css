@@ -2831,7 +2831,7 @@
 
     .footer {
         background-color: rgba(40, 169, 151, 1);
-        height: 420px;
+        height: 460px;
         width: 1349px;
         padding: 50px 70px;
     }
@@ -3115,20 +3115,21 @@
         height: 604px;
         border-radius: 32px;
         margin-top: 30px;
+        margin-left: 90px;
     }
 
     .splide__arrow--prev {
-        margin-left: 150px;
+        margin-left: 70px;
     }
 
     .splide__arrow--next {
-        margin-right: 20px;
+        margin-right: 80px;
     }
 
     .splide__slide img {
         width: 1030px;
         height: 604px;
-        margin-left: 140px;
+        margin-left: 70px;
     }
 
     .thumbnails {
@@ -3221,6 +3222,7 @@
         aspect-ratio: 4/3;
         width: 376px;
         height: 282px;
+        margin-left: 0px;
     }
 
     .batas-artikel1 {
@@ -3432,7 +3434,7 @@
 
     .footer {
         background-color: rgba(40, 169, 151, 1);
-        height: 420px;
+        height: 460px;
         width: 1440px;
         padding: 50px 70px;
     }
@@ -3717,6 +3719,7 @@
         height: 604px;
         border-radius: 32px;
         margin-top: 30px;
+        margin-left: 10px;
     }
 
     .splide__arrow--prev {
@@ -3823,6 +3826,7 @@
         aspect-ratio: 4/3;
         width: 376px;
         height: 282px;
+        margin-left: 0px;
     }
 
     .batas-artikel1 {
